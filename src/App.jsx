@@ -5,7 +5,7 @@ function App() {
   const [items, setItems] = useState([]);
   const [newItem, setNewItem] = useState("");
 
-  const API_URL = "https://todo-k79q.onrender.com/api/items";
+  const API_URL = "https://todo-szab.onrender.com/api/items";
 
   // Fetch items
   const fetchItems = async () => {
